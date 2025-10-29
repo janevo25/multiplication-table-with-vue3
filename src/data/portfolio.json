@@ -1,0 +1,81 @@
+[{
+  "id": 1,
+  "title": "Tampflex",
+  "description ": "Portable battery pack to charge laptops while on the move.",
+  "when_create": 2010,
+  "tools_used": "Procreate",
+  "created_for": "Web Design",
+  "thumbnail": "http://dummyimage.com/200x200.png/5fa2dd/ffffff"
+}, {
+  "id": 2,
+  "title": "Ronstring",
+  "description ": "A frozen meal featuring quinoa and mixed vegetables, ready to heat and eat.",
+  "when_create": 2015,
+  "tools_used": "Lightroom",
+  "created_for": "Typography",
+  "thumbnail": "http://dummyimage.com/200x200.png/cc0000/ffffff"
+}, {
+  "id": 3,
+  "title": "Y-find",
+  "description ": "Crunchy crackers topped with real cheddar cheese flavor.",
+  "when_create": 2012,
+  "tools_used": "Fresco",
+  "created_for": "Game Design",
+  "thumbnail": "http://dummyimage.com/200x200.png/5fa2dd/ffffff"
+}, {
+  "id": 4,
+  "title": "Span",
+  "description ": "Rich and creamy dressing with garlic flavor, perfect for salads.",
+  "when_create": 2014,
+  "tools_used": "Indesign",
+  "created_for": "Text & Image",
+  "thumbnail": "http://dummyimage.com/200x200.png/dddddd/000000"
+}, {
+  "id": 5,
+  "title": "Bitwolf",
+  "description ": "Elegant glass teapot for brewing loose tea.",
+  "when_create": 2006,
+  "tools_used": "Procreate",
+  "created_for": "Typography",
+  "thumbnail": "http://dummyimage.com/200x200.png/5fa2dd/ffffff"
+}, {
+  "id": 6,
+  "title": "Rank",
+  "description ": "Ergonomically designed neck pillow for comfortable travel.",
+  "when_create": 2014,
+  "tools_used": "Indesign",
+  "created_for": "Typography",
+  "thumbnail": "http://dummyimage.com/200x200.png/5fa2dd/ffffff"
+}, {
+  "id": 7,
+  "title": "Holdlamis",
+  "description ": "Wide range of flavored wings, perfect for parties or casual snacking.",
+  "when_create": 2009,
+  "tools_used": "Photoshop",
+  "created_for": "Web Design",
+  "thumbnail": "http://dummyimage.com/200x200.png/cc0000/ffffff"
+}, {
+  "id": 8,
+  "title": "Span",
+  "description ": "Assorted nail polish set for vibrant nails.",
+  "when_create": 2021,
+  "tools_used": "Procreate",
+  "created_for": "Game Design",
+  "thumbnail": "http://dummyimage.com/200x200.png/ff4444/ffffff"
+}, {
+  "id": 9,
+  "title": "Tin",
+  "description ": "Handy belt for carrying garden tools while working.",
+  "when_create": 2021,
+  "tools_used": "Illustrator",
+  "created_for": "Text & Image",
+  "thumbnail": "http://dummyimage.com/200x200.png/5fa2dd/ffffff"
+}, {
+  "id": 10,
+  "title": "Asoka",
+  "description ": "Complete kit for crafting your own scented soaps.",
+  "when_create": 2012,
+  "tools_used": "Fresco",
+  "created_for": "Typography",
+  "thumbnail": "http://dummyimage.com/200x200.png/ff4444/ffffff"
+}]

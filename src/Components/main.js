@@ -1,5 +1,5 @@
 import { createApp } from 'vue'
-import App from '../views/App.vue'
+import App from '../../views/App.vue'
 import router from '@/Components/index.js'
 
 const app = createApp(App)
