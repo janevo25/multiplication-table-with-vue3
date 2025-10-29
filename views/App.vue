@@ -1,4 +1,5 @@
 <script setup>
+import Navbar from '@/Navbar.vue'
 </script>
 
 <template>
@@ -7,11 +8,7 @@
       <h1>Multiplication Table Project</h1>
       <h3>Create your own multiplication table that is rendered with an HTML table!</h3>
 
-      <nav>
-        <router-link to="/">Home</router-link>
-        <router-link :to="{ name: 'MultiplicationTable' }">Multiplication Table</router-link>
-        <router-link :to="{ name: 'AboutMe' }">About Me</router-link>
-      </nav>
+      <navbar/>
     </header>
 
     <section class="page-content">
@@ -19,6 +16,7 @@
     </section>
 
     <footer>
+      <navbar/>
       <p>Created by Jane in 2025</p>
     </footer>
   </section>
@@ -31,26 +29,13 @@ section.web-app-container {
   margin: 0 auto;
 }
 
-header {
-  text-align: center;
-  padding: 10px 0;
-}
-
-nav {
-  display: flex;
-  gap: 15px;
-  justify-content: center;
-  margin-top: 10px;
-}
-
-section.page-content {
+section.web-app-container section.page-content {
   margin: 10px 0;
-  background-color: lightgray;
+  background-color: white;
   padding: 20px;
 }
 
 footer p {
   text-align: center;
-  padding: 10px 0;
 }
 </style>
