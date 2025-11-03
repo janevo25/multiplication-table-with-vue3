@@ -3,6 +3,7 @@ import Home from '../../views/Home.vue';
 import MultiplicationTable from '../../views/MultiplicationTable.vue';
 import AboutMe from '../../views/AboutMe.vue';
 import Allitems from '../../views/portfolio/Allitems.vue'
+import PortfolioItemDetails from '../../views/portfolio/PortfolioItemDetails.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -25,8 +26,18 @@ const router = createRouter({
 
     {
       path: '/examples/portfolio/',
-      name: 'Portfolio',
-      component: Allitems
+      children: [
+        {
+          path: '',
+          name: 'PortfolioLandingPage',
+          component: Allitems
+        },
+        {
+          path: ':portfolioId',
+          name: 'PortfolioItemDetails',
+          component: PortfolioItemDetails
+        }
+      ]
     }
   ]
 });

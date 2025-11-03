@@ -8,8 +8,13 @@ import portfolioData from '@/data/portfolio.json'
   <div class="container">
 
     <div class="preview-card" v-for="portfolioItem in portfolioData" :key="portfolioItem.id">
+
       <div>{{ portfolioItem.title }}</div>
+
       <img :src="portfolioItem.thumbnail"/>
+
+      <router-link :to="{ name: 'PortfolioItemDetails', params: { portfolioId: portfolioItem.id }}">Learn More </router-link>
+
     </div>
 
   </div>
